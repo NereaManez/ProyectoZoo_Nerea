@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">ZooNerea</string>
+    <string name="sign_in">Sign In</string>
+    <string name="user_name">User name</string>
+    <string name="passwd">Password</string>
+    <string name="create_account">CREATE AN ACCOUNT</string>
+    <string name="conf_passwd">Confirm password</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="have_account">ALREADY HAVE AN ACCOUNT</string>
+    <string name="update">Update</string>
+    <string name="delete">Delete</string>
+    <string name="DNI">DNI</string>
+    <string name="name">Name</string>
+    <string name="surname">Surname</string>
+    <string name="animal">ANIMAL</string>
+    <string name="care">DAILY CARE</string>
+    <string name="habitat">HABITAT</string>
+    <string name="family">Family</string>
+    <string name="specie">Specie</string>
+    <string name="alFrequency">Alimentation frequency</string>
+    <string name="habitatType">Habitat type</string>
+    <string name="description">Description</string>
+    <string name="animal2">Animal</string>
+    <string name="habitat2">Habitat</string>
+    <string name="frequency">Frequency</string>
+    <string name="times">Remaining times</string>
+    <string name="complete">Complete</string>
+    <string name="animals">ANIMALS</string>
+    <string name="addHabitat">ADD HABITAT</string>
+    <string name="add">Add</string>
+    <string name="addAnimal">ADD ANIMAL</string>
+</resources>

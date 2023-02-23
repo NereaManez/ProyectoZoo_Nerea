@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeActivity">
+
+    <ImageButton
+        android:id="@+id/animalImageButton"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/imagebuttonbackground"
+        android:clickable="true"
+        android:contentDescription="@string/animal"
+        android:padding="8dp"
+        android:scaleType="fitCenter"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/animal" />
+
+    <TextView
+        android:id="@+id/animalTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/animal"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/animalImageButton"
+        app:layout_constraintStart_toStartOf="@+id/animalImageButton"
+        app:layout_constraintTop_toBottomOf="@+id/animalImageButton" />
+
+    <ImageButton
+        android:id="@+id/careImageButton"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginEnd="32dp"
+        android:background="@drawable/imagebuttonbackground"
+        android:clickable="true"
+        android:contentDescription="@string/care"
+        android:padding="8dp"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="@+id/animalImageButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@id/animalImageButton"
+        app:srcCompat="@drawable/care" />
+
+    <TextView
+        android:id="@+id/careTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/care"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/animalTextView"
+        app:layout_constraintEnd_toEndOf="@+id/careImageButton"
+        app:layout_constraintStart_toStartOf="@+id/careImageButton"
+        app:layout_constraintTop_toTopOf="@+id/animalTextView" />
+
+    <ImageButton
+        android:id="@+id/habitatImageButton"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="48dp"
+        android:background="@drawable/imagebuttonbackground"
+        android:clickable="true"
+        android:contentDescription="@string/habitat"
+        android:padding="8dp"
+        android:scaleType="fitCenter"
+        app:layout_constraintEnd_toEndOf="@id/animalImageButton"
+        app:layout_constraintStart_toStartOf="@id/animalImageButton"
+        app:layout_constraintTop_toBottomOf="@id/animalTextView"
+        app:srcCompat="@drawable/habitat" />
+
+    <TextView
+        android:id="@+id/habitatTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/habitat"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/habitatImageButton"
+        app:layout_constraintStart_toStartOf="@+id/habitatImageButton"
+        app:layout_constraintTop_toBottomOf="@+id/habitatImageButton" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
